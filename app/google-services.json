@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "739622954513",
+    "firebase_url": "https://monpicture-d8901.firebaseio.com",
+    "project_id": "monpicture-d8901",
+    "storage_bucket": "monpicture-d8901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739622954513:android:813f7c41878457c7",
+        "android_client_info": {
+          "package_name": "th.ac.rmutsv.monpicture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739622954513-2er531hehslr1rnc72ml56i9rl7d65v3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.rmutsv.monpicture",
+            "certificate_hash": "0ad3b46e8c7c1a8257a8422e380f093a3efa7f17"
+          }
+        },
+        {
+          "client_id": "739622954513-qegcldk1kkii8b1o2shko2ovej19eqgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2eEND8yMet-skE4Tbfdd7I7qhZxqCBHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739622954513-qegcldk1kkii8b1o2shko2ovej19eqgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

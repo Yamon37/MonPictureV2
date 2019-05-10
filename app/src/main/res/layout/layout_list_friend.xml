@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FriendFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Icon-->
+        <ImageView
+            android:id="@+id/imvIcon"
+            android:layout_margin="8dp"
+            android:scaleType="centerInside"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <!--Content-->
+
+        <RelativeLayout
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--Name-->
+            <TextView
+                android:id="@+id/txtName"
+                android:textColor="#F44336"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--Email-->
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:gravity="end"
+                android:padding="4dp"
+                android:textColor="#ffffff"
+                android:background="#99000000"
+                android:textSize="18sp"
+                android:layout_alignParentBottom="true"
+                android:text="you@yamon.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:background="#9C27B0"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+</LinearLayout>
